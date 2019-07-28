@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+
+body	{margin: 0;
+	font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif}
+
+
+/* 사이트 이름 */
+.site h1 a	{color: #000000;
+	text-decoration: none}
+
+.site h1	{margin: 0;
+	font-size: 30px}
+
+.site img	{border: none}
+
+
+/* 내비게이션 */
+.menu ul	{margin: 0;
+	padding: 0;
+	list-style: none}
+
+.menu li a	{display: block;
+	padding: 10px 15px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none}
+
+.menu li a:hover	{background-color: #eeeeee}
+
+.menu ul:after	{content: "";
+	display: block;
+	clear: both}
+
+.menu li	{float: left;
+	width: auto}
+
+
+/* 기사 본문 */
+
+.article {
+    width: 930px;
+    height: auto;
+    background-color: white;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 14px;
+}
+.article p{
+    margin: 40px;
+}
+
+/* 사용자별 카테고리별 뉴스 */
+.usernews{background-color: #eeeeee;}
+
+.usernews .box4-1 { 
+	text-align: center;
+	padding: 10px;
+}
+
+
+.usernews .box4-2 ul {
+	margin: 0;
+	padding: 15px;
+	list-style: none;
+	
+}
+
+.usernews .box4-2 li a {
+	display: block;
+	margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: auto;
+    width: 850px;
+    padding: 30px;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+.usernews .box4-2 li a:hover {
+	background-color: #dddddd
+}
+
+.usernews .box4-2 li a img {
+	border: none
+}
+
+.usernews .box4-2 a:after {
+	content: "";
+	display: block;
+	clear: both
+}
+
+.usernews .box4-2 img {
+	float: left;
+	width: 150px;
+	margin-right: 15px;
+}
+
+.usernews .box4-2 .text {
+	float: none;
+	width: auto;
+	margin-left: 150px;
+	padding-left: 15px;
+}
+.usernews .box4-2 h3{
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+.usernews .box4-2 span {
+	color: #666666;
+	font-size: 12px;
+	margin-left: 15px;
+	font-weight: 300;
+}
+.usernews .box4-2 p{
+	font-size: 14px;
+	margin:0;
+	margin-bottom: 10px;
+	padding:0;
+}
+
+
+/* 저작권 */
+.copyright p	{margin: 0;
+	color: #666666;
+	font-size: 14px}
+
+
+/* BOX5를 바의 형태로 디자인 */
+.box5	{padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #dddddd}
+
+
+/* 박스의 왼쪽 오른쪽 */
+.boxA, .box5, .box3
+	{padding-left: 15px;
+	padding-right: 15px}
+
+
+/* 박스의 위 아래 */
+.boxA	{padding-top: 20px;
+	padding-bottom: 10px}
+
+
+/* ########### 599px 이하 ########### */
+@media (max-width: 599px) {
+
+/* 내비게이션 */
+.menu li a	{padding: 10px 7px;
+	font-size: 11px}
+
+/* 관련 기사 메뉴 */
+
+.usernews .box4-2 img {
+	float: left;
+	width: 80px
+}
+.usernews .box4-2 li a{
+	width: auto;
+	margin: 10px;
+	padding: 5px;
+}
+.usernews .box4-2 h3{
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+.usernews .box4-2 .text{
+	margin-left: 80px;
+	padding-left: 14px;
+}
+.usernews .box4-2 p{
+	font-size: 12px;
+}
+.usernews .box4-2 span{
+	font-size: 11px;
+}
+
+.article {
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin: 3px;
+}
+.article p{
+    margin: 3px;
+}
+
+}
+
+
+/* ########### 768px 이상 ########### */
+@media (min-width: 768px) {
+
+/* BOX1과 BOX2를 가로 정렬하는 설정 */
+.boxA:after	{content: "";
+	display: block;
+	clear: both}
+
+.box1	{float: left;
+	width: auto}
+
+.box2	{float: right;
+	width: auto}
+
+
+
+/* ########### 1190px 이상 ########### */
+@media (min-width: 1190px) {
+
+/* 전체 너비를 고정 */
+.box3, .boxA-inner, .box5-inner
+	{width: 1000px;
+	margin-left: auto;
+	margin-right: auto}
+
+/* BOX A의 아래에 테두리 삽입 */
+.boxA	{margin-bottom: 20px;
+	border-bottom: solid 1px #dddddd}
+
+}
+
+}
