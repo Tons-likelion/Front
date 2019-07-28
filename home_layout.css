@@ -48,7 +48,7 @@ a {
 
 #writer .name {
     opacity: 0.6;
-    font-family: NotoSansKR-Light;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
     color: #000000;
     letter-spacing: 0;
@@ -101,7 +101,7 @@ nav ul {
 nav ul li {
     text-align: right;
     opacity: 0.6;
-    font-family: NotoSansKR;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1rem;
 }
 
@@ -231,8 +231,7 @@ nav ul li:nth-child(2) {
     padding-left: 24px;
     padding-bottom: 24px;
 
-
-    font-family: NotoSansKR-Regular;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     color: #000000;
     letter-spacing: -0.3px;
@@ -277,7 +276,7 @@ nav ul li:nth-child(2) {
 
 .category_title_1 {
     opacity: 0.87;
-    font-family: SongMyung-Regular;
+    font-family: 'Song Myung', serif;
     font-size: 18px;
     color: #000000;
     letter-spacing: -0.3px;
@@ -332,7 +331,7 @@ nav ul li:nth-child(2) {
 }
 
 .catebory_article_title {
-    font-family: NotoSansKR-Regular;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     color: #000000;
     letter-spacing: -0.3px;
