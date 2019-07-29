@@ -21,6 +21,7 @@ a {
 
 footer {
     width: 100%;
+    height: auto;
     background-color: #1A1A1A;
 }
 
@@ -32,6 +33,7 @@ footer {
 
 .foot_container_1 {
     display: flex;
+    
 }
 
 .foot_info_1{
